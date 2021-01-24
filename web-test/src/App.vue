@@ -1,12 +1,6 @@
 <template>
   <h1>移动端示例!</h1>
-  <el-menu
-    :default-active="activeIndex"
-    router
-    class="el-menu-demo"
-    mode="horizontal"
-    @select="handleSelect"
-  >
+  <el-menu router class="el-menu-demo" mode="horizontal" @select="handleSelect">
     <el-menu-item index="1" route="/view-port">视口</el-menu-item>
     <el-menu-item index="2" route="/1px">1像素</el-menu-item>
     <el-menu-item index="3" route="/layout">布局</el-menu-item>
